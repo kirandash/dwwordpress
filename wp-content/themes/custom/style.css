@@ -40,6 +40,15 @@ header {
 header h1 {
 	font-size: 2.5em;	
 }
+nav.mainMenu {
+	padding: 5px;	
+}
+nav.mainMenu ul li {
+	display: inline;
+	list-style: none;
+	margin-right: 20px;
+	
+}
 #contentWrap {
 	width: 100%;
 	overflow: auto;
@@ -48,10 +57,10 @@ header h1 {
 	width: 700px;
 	float: right;	
 }
-#content article, .widget-area aside, form#commentform {
+#content article, .widget-area aside, form#commentform, h2#pageTitle {
 	margin-bottom: 20px;	
 }
-div.entry {
+div.entry, div.entry p {
 	margin: 10px 0;	
 }
 .widget-area {
@@ -66,7 +75,7 @@ footer {
 	text-align:center;
 	padding: 10px;	
 }
-.single #content {
+.page #content {
 	width: 100%;
 	float: none;	
 }
